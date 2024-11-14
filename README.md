@@ -76,6 +76,8 @@ In Sileo, go to `Sources -> Edit -> Add` and enter `https://build.frida.re`
     objection -g <app-bundle-id> explore
     ```
 
+
+
 ## Lab 5 - Grapefruit
 
 1. **Download and install NodeJS**:
@@ -89,7 +91,25 @@ In Sileo, go to `Sources -> Edit -> Add` and enter `https://build.frida.re`
     igf
     ```
 
-## Lab 6 - MobSF Lab
+## Lab 6 - Decrypt and Extract IPA
+
+```
+git clone https://github.com/AloneMonkey/frida-ios-dump.git
+
+cd frida-ios-dump
+
+python3 -m venv .
+
+source bin/activate
+
+pip install -r requirements.txt
+
+python3 dump.py –l
+
+python3 dump.py com.burbn.instagram -u mobile -P alpine
+```
+
+## Lab 7 - MobSF Lab
 
 1. **Ensure Docker Desktop is running on your Mac**.
 

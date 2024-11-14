@@ -1,11 +1,11 @@
 
 ## Demo - Build a test iOS App: 
 
-https://developer.apple.com/tutorials/develop-in-swift/hello-swiftui
+[https://developer.apple.com/tutorials/develop-in-swift/hello-swiftui]
 
 ## Lab1 - IPA file
 
-https://psychsecurity.github.io/bsidesmelbourne2024/Calendar.ipa
+[https://psychsecurity.github.io/bsidesmelbourne2024/Calendar.ipa]
 
 ## Lab2 - Frida
 
@@ -42,7 +42,7 @@ frida-ps -Ua | awk '{print $1, $2, $3}' <!-- in other shells -->
 Download: 
 [https://psychsecurity.github.io/bsidesmelbourne2024/env.js](https://psychsecurity.github.io/bsidesmelbourne2024/env.js)
 
-https://psychsecurity.github.io/bsidesmelbourne2024/app_meta_info.js
+[https://psychsecurity.github.io/bsidesmelbourne2024/app_meta_info.js]
 
 ```
 
@@ -55,11 +55,11 @@ frida -U -f com.burbn.instagram -l app_meta_info.js
 
 Install sideloadly
 
-https://sideloadly.io/#download
+[https://sideloadly.io/#download]
 
 DVIA
 
-https://github.com/prateek147/DVIA-v2
+[https://github.com/prateek147/DVIA-v2]
 
 
 ## Lab 4 - Objection
@@ -89,7 +89,7 @@ objection -g <app-bundle-id> explore
 
 Download and install NodeJS:
 
-https://nodejs.org/en/download/prebuilt-installer
+[https://nodejs.org/en/download/prebuilt-installer]
 
 select v18.20.4 LTS for MacOS – and select your Mac’s arch
 
@@ -109,7 +109,7 @@ Run mobsf container:
 
 `docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framework-mobsf:latest`
 
-http://localhost:8000/
+[http://localhost:8000/]
 
 Login with `mobsf/mobsf`
 
@@ -118,13 +118,13 @@ Login with `mobsf/mobsf`
 
 Download free community edition:
 
-https://portswigger.net/burp/communitydownload
+[https://portswigger.net/burp/communitydownload]
 
 Select your Mac arch and install
 
 Follow the instructions below to configure the device and Burp
 
-https://portswigger.net/burp/documentation/desktop/mobile/config-ios-device
+[https://portswigger.net/burp/documentation/desktop/mobile/config-ios-device]
 
 
 

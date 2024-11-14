@@ -129,7 +129,7 @@ python3 dump.py com.burbn.instagram -u mobile -P alpine
    [http://localhost:8000/](http://localhost:8000/)  
    Login credentials: `mobsf/mobsf`
 
-## Lab 7 - Burp Suite
+## Lab 8 - Burp Suite
 
 1. **Download Burp Suite Community Edition**:
    [Burp Suite Community Download](https://portswigger.net/burp/communitydownload)

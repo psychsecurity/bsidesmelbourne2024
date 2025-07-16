@@ -1,5 +1,6 @@
 # iOS Security Training Labs
 sudo /bin/sh -c "$(curl -fsSL https://static.palera.in/scripts/install.sh)"
+palera1n -l
 ## Demo - Build a Test iOS App
 
 [Hello SwiftUI Tutorial](https://developer.apple.com/tutorials/develop-in-swift/hello-swiftui)
